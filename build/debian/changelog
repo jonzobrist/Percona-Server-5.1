@@ -1,0 +1,19 @@
+percona-server-5.1 (5.1.60-rel13.1) unstable; urgency=low
+
+  * Changed name to percona-server-5.1.
+  * Removed the libmysqlclient16-dev transitional package,
+    renamed libmysqlclient-dev to libmysqlclient16-dev.
+
+ -- Ignacio Nin <ignacio.nin@percona.com>  Tue, 03 Jan 2012 15:50:45 -0500
+
+percona-server-dfsg-5.1 (5.1.55-rel12.6) lenny; urgency=low
+
+  * Added readline to configure options (LP #631667)
+
+ -- Ignacio Nin <ignacio.nin@percona.com>  Wed, 02 Mar 2011 17:29:27 +0300
+
+percona-server-dfsg-5.1 (5.1.47-11.0) lenny; urgency=low
+
+  * Percona Server 11.0
+
+ -- Aleksandr Kuzminsky <aleksandr.kuzminsky@percona.com>  Fri, 28 May 2010 08:51:58 -0400
