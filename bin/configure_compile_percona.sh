@@ -18,7 +18,8 @@ sudo checkinstall --pkgname="inthinc-percona-server-5.1" --pkgversion="5.1" --ma
 
 echo "Done creating deb file at $(date)"
 ls -l *deb
-cp *deb ~/
+md5sum *deb
+cp *deb ${HOME}/
 #git add *deb
 #git commit -m "Deb packages ${BUILD_TAG} $(date) By Jenkins"
 #git push origin master
