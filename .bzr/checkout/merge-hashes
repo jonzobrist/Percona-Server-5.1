@@ -1,21 +1,18 @@
 BZR merge-modified list format 1
-file_id: protocol.en.txt-20121106211121-mne1hekmlr98bg9f-32
-hash: a5e64be65f5c4937a3c7ccc210c0c5779fdae18b
-
 file_id: control-20100531135549-le2ihgsblner4565-6
 hash: 0a200dab3d16fbdeb855ff6df4300349d69fd8e9
 
 file_id: test06.expected-20121106211121-mne1hekmlr98bg9f-107
 hash: 211735963807a1a3317b818fa37f91f679b1f280
 
-file_id: hstest_hs.sh-20121106211121-mne1hekmlr98bg9f-23
-hash: 968e8a43e17d4f9ab0ca19b2c6dd021b1044e8fc
+file_id: escape.cpp-20121106211121-mne1hekmlr98bg9f-58
+hash: c489f254db01f430256b758ec9e958c452f6a250
 
 file_id: 2@16c675df-0fcb-4bc9-8058-dcc011a37293:trunk%2Finclude%2Ftrx0sys.h
 hash: 124a5af658e10bb6a4198c183d22c0358f5aac8a
 
-file_id: test05.pl-20121106211121-mne1hekmlr98bg9f-106
-hash: 30c433c6e764b29ccac8340c3ef64c92c5aed0d9
+file_id: nethandlersocket.t-20121106211121-mne1hekmlr98bg9f-91
+hash: 084e2ba3e43b47b97828e7728519a23762378a49
 
 file_id: fatal.cpp-20121106211121-mne1hekmlr98bg9f-60
 hash: cc51db05bdb975fe7179d4d1867f2bbe96a3431a
@@ -23,11 +20,14 @@ hash: cc51db05bdb975fe7179d4d1867f2bbe96a3431a
 file_id: rpl_percona_crash_re-20120627102423-5dx0n90porzy5jjy-1
 hash: 2fd6664b3eec3072153cd8159b3ed272583b0d9d
 
-file_id: escape.cpp-20121106211121-mne1hekmlr98bg9f-58
-hash: c489f254db01f430256b758ec9e958c452f6a250
+file_id: hstest_hs.sh-20121106211121-mne1hekmlr98bg9f-23
+hash: 968e8a43e17d4f9ab0ca19b2c6dd021b1044e8fc
 
 file_id: sp1f-sp_head.cc-20021208185920-jtgc5wvyqdnu2gvcdus3gazrfhxbofxd
 hash: bd4674be6dc3107814e216c6c9b1a3914de1712d
+
+file_id: test23.pl-20121106211121-mne1hekmlr98bg9f-142
+hash: 5047e4ec465e6a6a20957995dc1079c2d49d8ef6
 
 file_id: hstest_my_more50.sh-20121106211121-mne1hekmlr98bg9f-27
 hash: ffc23dfb4eedc8704e4e76b3580b323f391d23b1
@@ -47,14 +47,14 @@ hash: ffe8019a37427ef3c514b7619c87b32c5e69f83d
 file_id: handlersocket.spec.t-20121106211121-mne1hekmlr98bg9f-43
 hash: e3278386bd8a0dc641788d56a05b00ae3f40068c
 
-file_id: changes-20121106211121-mne1hekmlr98bg9f-77
-hash: 6e127508a30c7799a53ae19d618ba8a5f406fe48
+file_id: makefile.plain-20121106211121-mne1hekmlr98bg9f-51
+hash: cd48534c4dd862f2d85dc79c561cc41b32458442
 
 file_id: perlclient.en.txt-20121106211121-mne1hekmlr98bg9f-31
 hash: 94abba91550fe9c5902b00da0a751cbca18deb53
 
-file_id: nethandlersocket.t-20121106211121-mne1hekmlr98bg9f-91
-hash: 084e2ba3e43b47b97828e7728519a23762378a49
+file_id: test05.pl-20121106211121-mne1hekmlr98bg9f-106
+hash: 30c433c6e764b29ccac8340c3ef64c92c5aed0d9
 
 file_id: test16.pl-20121106211121-mne1hekmlr98bg9f-128
 hash: b3220836a8f645533241cf1e46be2c62427dfb96
@@ -64,6 +64,9 @@ hash: 2ceb65a068040cdf6c7b5b129e51707276aa0adf
 
 file_id: test10.pl-20121106211121-mne1hekmlr98bg9f-116
 hash: bf8e2eb8be8a357acfd3a11096178f677ea86008
+
+file_id: test22.pl-20121106211121-mne1hekmlr98bg9f-140
+hash: 66edc0a63977c96c967bd70e08995af55bacbc27
 
 file_id: hstcpcli.hpp-20121106211121-mne1hekmlr98bg9f-63
 hash: 6ea16241238df85f7c737c30c11ca263e7a3875e
@@ -80,14 +83,14 @@ hash: 330b7b455d0d9f8d1ed384b6311c61be51b44db3
 file_id: hslongrun.cpp-20121106211121-mne1hekmlr98bg9f-19
 hash: 8d8bd9aac0177bd001b4f2e9cb8c36bddc470bfb
 
-file_id: hstest_md.sh-20121106211121-mne1hekmlr98bg9f-25
-hash: d95f728c43c5f6c4c54c20ece9838ae136411d1c
+file_id: thread.hpp-20121106211121-mne1hekmlr98bg9f-72
+hash: 4d5f1f572411cda85ea394044efc6eb9b91345e0
 
-file_id: rpl_percona_crash_re-20120622115651-dj9toxwlpykkh8c3-1
-hash: ad50179c01369e5ae503e95d4d088c90d2b0fa18
+file_id: test11.expected-20121106211121-mne1hekmlr98bg9f-117
+hash: 7977edc7c95e3af68a608653e73be9979e472cdb
 
-file_id: handlersocket.patch-20121106211148-zpzfpdctf8g9wdme-1
-hash: 5ebee2a0d76d7016f66fe9148e096a3a15c07609
+file_id: config.hpp-20121106211121-mne1hekmlr98bg9f-57
+hash: 8741445225ecafb50b67b6eb3413ee4b78163998
 
 file_id: test09.pl-20121106211121-mne1hekmlr98bg9f-114
 hash: bb7caacb548b5bedfdc429792331d90a9caf20e2
@@ -143,8 +146,8 @@ hash: a787b3d8645d820140124af946c30edce61bcd3e
 file_id: string_util.cpp-20121106211121-mne1hekmlr98bg9f-70
 hash: 59cd17d246213fe9398e16992e0eea7fc5f2267b
 
-file_id: hstest.pm-20121106211121-mne1hekmlr98bg9f-94
-hash: 1fe88b2b904aa7c8f2db61f42fceefaf4b66c322
+file_id: readme.handlersocket-20121106211148-zpzfpdctf8g9wdme-2
+hash: 29b6072eab8c3cf2b150907763167fa47cc8b5f4
 
 file_id: hstest.cpp-20121106211121-mne1hekmlr98bg9f-21
 hash: a825d98e21e0ad514228de19a7e0f388af1f7dd7
@@ -158,17 +161,14 @@ hash: 9dcacbfca9a6bf7199cf0aca23a38fe583769579
 file_id: binary_my.cnf-20121106211121-mne1hekmlr98bg9f-92
 hash: 156975317939572aa4d4d4f8dcf65b4fc66c4081
 
-file_id: test08.expected-20121106211121-mne1hekmlr98bg9f-111
-hash: 8c3052f7f8a8ea9f153032b2b3a8b2f3d61a07ba
-
 file_id: installation.en.txt-20121106211121-mne1hekmlr98bg9f-30
 hash: 7ff00fbec6d2caea32ef0c260fd1e9e16c7e8a9f
 
 file_id: copyright.txt-20121106211121-mne1hekmlr98bg9f-49
 hash: 3914c2c16582bb3e404a22557a1f6b3c73db23a8
 
-file_id: thread.hpp-20121106211121-mne1hekmlr98bg9f-72
-hash: 4d5f1f572411cda85ea394044efc6eb9b91345e0
+file_id: hstest_md.sh-20121106211121-mne1hekmlr98bg9f-25
+hash: d95f728c43c5f6c4c54c20ece9838ae136411d1c
 
 file_id: ppport.h-20121106211121-mne1hekmlr98bg9f-85
 hash: 0d24f011de848d79367d6fe9e66da1cb6fd70f2b
@@ -194,8 +194,8 @@ hash: 04b0b6c497678373c3af14e77d002e2d9cc73091
 file_id: string_util.hpp-20121106211121-mne1hekmlr98bg9f-71
 hash: 3b47cfa2152d4a6610a77ed8553e2f8f27fd250e
 
-file_id: test11.expected-20121106211121-mne1hekmlr98bg9f-117
-hash: 7977edc7c95e3af68a608653e73be9979e472cdb
+file_id: rpl_percona_crash_re-20120622115651-dj9toxwlpykkh8c3-1
+hash: ad50179c01369e5ae503e95d4d088c90d2b0fa18
 
 file_id: percona_innodb_fake_-20111124020053-k162xeox155297mg-4
 hash: a955965eeb487545be9a36a637c993b7143b9d53
@@ -221,8 +221,8 @@ hash: 26a9e07ba8259cda2cf6fa765a876cc40c9eeeb8
 file_id: makefile.am-20121106211121-mne1hekmlr98bg9f-17
 hash: 4fdaa211f002523e9b5b6d221379510a0848fca6
 
-file_id: config.hpp-20121106211121-mne1hekmlr98bg9f-57
-hash: 8741445225ecafb50b67b6eb3413ee4b78163998
+file_id: handlersocket.patch-20121106211148-zpzfpdctf8g9wdme-1
+hash: 5ebee2a0d76d7016f66fe9148e096a3a15c07609
 
 file_id: test20.pl-20121106211121-mne1hekmlr98bg9f-136
 hash: 7cb3e043327ced19a13cb960312d52b76ec60b69
@@ -235,9 +235,6 @@ hash: 62b735d1cd9e2bebaebb87de6889c2f60a8003df
 
 file_id: util.hpp-20121106211121-mne1hekmlr98bg9f-73
 hash: 8369de1ffc4d0069f93ce980b663f92951043d37
-
-file_id: autogen.sh-20121106211121-mne1hekmlr98bg9f-7
-hash: 8091cdb917d1ec9a9f4b9e0c90bb48fc3cd00bf9
 
 file_id: auto_addrinfo.hpp-20121106211121-mne1hekmlr98bg9f-53
 hash: 780115ce08c14f8874f2845c09398303ab13c408
@@ -254,8 +251,8 @@ hash: c71dde77ef0728f30ed22be9417b4ca36fcda228
 file_id: test16.expected-20121106211121-mne1hekmlr98bg9f-127
 hash: 8de608eb10ca6e4f37814a3509b22909b1546b7f
 
-file_id: changelog-20121106211121-mne1hekmlr98bg9f-4
-hash: 47ee2a462f2a38c13531a1d205bad903285c4267
+file_id: libhsclient.spec.tem-20121106211121-mne1hekmlr98bg9f-64
+hash: 7d3f1828fcc06ec23c61c3861b7d61e7ef8d6a97
 
 file_id: makefile-20121106211121-mne1hekmlr98bg9f-87
 hash: 583771ef03f44cb37e86a013caa3e7cd6bd9dbb5
@@ -266,8 +263,8 @@ hash: fadee0f2b7acc2f3a1b341f716a3bbf92ce51532
 file_id: config.cpp-20121106211121-mne1hekmlr98bg9f-56
 hash: 4dae8e5ce960487f24eb6ac600802352f6462f5b
 
-file_id: test19.pl-20121106211121-mne1hekmlr98bg9f-134
-hash: ce5325ddb7d8b91e306e990e6c9d1b595712e469
+file_id: percona_server_varia-20111124020055-x26srhgov8clrwfk-5
+hash: 6245fe88cbe4200f069547c7296ab61adf04b648
 
 file_id: test20.expected-20121106211121-mne1hekmlr98bg9f-135
 hash: 98aec253ea7ded38c6a84f4477e5a1597373ae42
@@ -278,8 +275,8 @@ hash: 0dfc7a79c623dad4d9610d76ebfd0c371ca14cd1
 file_id: test01.expected-20121106211121-mne1hekmlr98bg9f-97
 hash: 5093040c2501fafc52b3b663325d599746e955ef
 
-file_id: percona_server_varia-20111124020055-x26srhgov8clrwfk-5
-hash: 6245fe88cbe4200f069547c7296ab61adf04b648
+file_id: test19.pl-20121106211121-mne1hekmlr98bg9f-134
+hash: ce5325ddb7d8b91e306e990e6c9d1b595712e469
 
 file_id: test13.expected-20121106211121-mne1hekmlr98bg9f-121
 hash: c2a15c238f6b57752a53597d734b1552fb2efa52
@@ -314,8 +311,8 @@ hash: 66e586fcdaaf67a70c2aebe270b8bf494013b4dd
 file_id: microbenchmy.log-20121106211121-mne1hekmlr98bg9f-75
 hash: c0dfe9888e4383b805f86f384f6e328724f93e42
 
-file_id: makefile.plain-20121106211121-mne1hekmlr98bg9f-51
-hash: cd48534c4dd862f2d85dc79c561cc41b32458442
+file_id: changes-20121106211121-mne1hekmlr98bg9f-77
+hash: 6e127508a30c7799a53ae19d618ba8a5f406fe48
 
 file_id: makefile.plain.templ-20121106211121-mne1hekmlr98bg9f-39
 hash: dcb32017884055cec6a24de9850fefa3841ff0d5
@@ -329,11 +326,11 @@ hash: 17c125c76416dce13b1b32892ad155cd5033ebb9
 file_id: makefile.am-20121106211121-mne1hekmlr98bg9f-38
 hash: 0f0930fdb7ab20551206eb5fc7c110f8a4143299
 
-file_id: socket.cpp-20121106211121-mne1hekmlr98bg9f-66
-hash: f1a1615d2ce33b4e757d352adbe3aa6cbc445850
+file_id: compat-20100531135549-le2ihgsblner4565-5
+hash: d3964f9dad9f60363c81b688324d95b4ec7c8038
 
-file_id: makefile.am-20121106211121-mne1hekmlr98bg9f-50
-hash: a39d4e9e3be035bbc76ca47d4b411be6e292f513
+file_id: hsclient.cpp-20121106211121-mne1hekmlr98bg9f-18
+hash: 9c44c5aa31fe0b3e0bd3e0ec9df61056aa2608a6
 
 file_id: microbenchhs.log-20121106211121-mne1hekmlr98bg9f-74
 hash: 5e47b2bf7f099eddd370ae6c2b2d3eaeb851d413
@@ -341,8 +338,8 @@ hash: 5e47b2bf7f099eddd370ae6c2b2d3eaeb851d413
 file_id: readme-20121106211121-mne1hekmlr98bg9f-6
 hash: 9aeb219780e0d640a48ce57b9486366707a7998b
 
-file_id: libhsclient.spec.tem-20121106211121-mne1hekmlr98bg9f-64
-hash: 7d3f1828fcc06ec23c61c3861b7d61e7ef8d6a97
+file_id: changelog-20121106211121-mne1hekmlr98bg9f-4
+hash: 47ee2a462f2a38c13531a1d205bad903285c4267
 
 file_id: manifest-20121106211121-mne1hekmlr98bg9f-79
 hash: c9ee4e823530df6f11e21725af42bee512222497
@@ -365,8 +362,8 @@ hash: 45621b65d0e5831638bbb803878d5b2afd65e612
 file_id: rules-20100531135549-le2ihgsblner4565-49
 hash: 8f9e437961ee7ccda8c0fa1939d870b7ac6857db
 
-file_id: compat-20100531135549-le2ihgsblner4565-5
-hash: d3964f9dad9f60363c81b688324d95b4ec7c8038
+file_id: socket.cpp-20121106211121-mne1hekmlr98bg9f-66
+hash: f1a1615d2ce33b4e757d352adbe3aa6cbc445850
 
 file_id: database.cpp-20121106211121-mne1hekmlr98bg9f-40
 hash: 9ce7461406d049918529d61a12c09a5ed5141f2f
@@ -404,20 +401,20 @@ hash: 88ffe1a0d60c880f4773d5a7e2869c8009d551bd
 file_id: compat.sh-20121106211121-mne1hekmlr98bg9f-93
 hash: 40e8f4719525a417ab4234db4dc37a09b910540a
 
-file_id: test03.expected-20121106211121-mne1hekmlr98bg9f-101
-hash: ee0ed80d0f40b1730c78c004edcb9e77a9048283
+file_id: sp1f-sql_class.h-19700101030959-jnqnbrjyqsvgncsibnumsmg3lyi7pa5s
+hash: 1b2c9cca579db2b20729bd6f994cfb01db3f387b
 
-file_id: hstcpsvr.hpp-20121106211121-mne1hekmlr98bg9f-45
-hash: 43b78a0f7f221167b4f633e5bf5a0a199b7f55d1
+file_id: protocol.en.txt-20121106211121-mne1hekmlr98bg9f-32
+hash: a5e64be65f5c4937a3c7ccc210c0c5779fdae18b
 
-file_id: test22.pl-20121106211121-mne1hekmlr98bg9f-140
-hash: 66edc0a63977c96c967bd70e08995af55bacbc27
+file_id: test08.expected-20121106211121-mne1hekmlr98bg9f-111
+hash: 8c3052f7f8a8ea9f153032b2b3a8b2f3d61a07ba
 
 file_id: test15.pl-20121106211121-mne1hekmlr98bg9f-126
 hash: 104a0db9a6d06a9e7e39b4333370036810ef2927
 
-file_id: readme.handlersocket-20121106211148-zpzfpdctf8g9wdme-2
-hash: 29b6072eab8c3cf2b150907763167fa47cc8b5f4
+file_id: hstest.pm-20121106211121-mne1hekmlr98bg9f-94
+hash: 1fe88b2b904aa7c8f2db61f42fceefaf4b66c322
 
 file_id: pool.pm-20121106211121-mne1hekmlr98bg9f-147
 hash: 072d1fca3ec1aa12b2d2d271180442247dd32f28
@@ -434,8 +431,8 @@ hash: bbe0bf55b2ace3ca345a89226756fc522a746516
 file_id: test03.pl-20121106211121-mne1hekmlr98bg9f-102
 hash: b3f100f4b8b1c19722f1378c2fd59c5010435843
 
-file_id: test23.pl-20121106211121-mne1hekmlr98bg9f-142
-hash: 5047e4ec465e6a6a20957995dc1079c2d49d8ef6
+file_id: autogen.sh-20121106211121-mne1hekmlr98bg9f-7
+hash: 8091cdb917d1ec9a9f4b9e0c90bb48fc3cd00bf9
 
 file_id: test05.expected-20121106211121-mne1hekmlr98bg9f-105
 hash: 53155a0996919c6a90a738a2d6c7183a5241b9dd
@@ -443,14 +440,17 @@ hash: 53155a0996919c6a90a738a2d6c7183a5241b9dd
 file_id: test18.expected-20121106211121-mne1hekmlr98bg9f-131
 hash: 6b4f567877375479dd505137687a58f9a974f2dd
 
+file_id: hstcpsvr.hpp-20121106211121-mne1hekmlr98bg9f-45
+hash: 43b78a0f7f221167b4f633e5bf5a0a199b7f55d1
+
 file_id: escape.hpp-20121106211121-mne1hekmlr98bg9f-59
 hash: 9d295299ede39696c53d4b53fa5fa6015530dbb6
 
 file_id: hstest_hs_more50.sh-20121106211121-mne1hekmlr98bg9f-24
 hash: 5dea921ae5f5233c59d2028628e0496f4506722a
 
-file_id: hsclient.cpp-20121106211121-mne1hekmlr98bg9f-18
-hash: 9c44c5aa31fe0b3e0bd3e0ec9df61056aa2608a6
+file_id: makefile.am-20121106211121-mne1hekmlr98bg9f-50
+hash: a39d4e9e3be035bbc76ca47d4b411be6e292f513
 
 file_id: abouthandlersocket.j-20121106211121-mne1hekmlr98bg9f-33
 hash: 66035c005eddd132ae1f9547556a6be5f8f279a2
@@ -461,8 +461,8 @@ hash: 7248cc349cd9436480d6d68a32a6969b158d938d
 file_id: handlersocket.pm-20121106211121-mne1hekmlr98bg9f-146
 hash: 3cfe3aaa6b9d4bd6c20333023217c8262ea64797
 
-file_id: sp1f-sql_class.h-19700101030959-jnqnbrjyqsvgncsibnumsmg3lyi7pa5s
-hash: 1b2c9cca579db2b20729bd6f994cfb01db3f387b
+file_id: test03.expected-20121106211121-mne1hekmlr98bg9f-101
+hash: ee0ed80d0f40b1730c78c004edcb9e77a9048283
 
 file_id: run.sh-20121106211121-mne1hekmlr98bg9f-96
 hash: e0df1594bb39e777434cedf4dec3c3ecfe7832c8
