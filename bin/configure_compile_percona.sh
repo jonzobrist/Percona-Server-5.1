@@ -1,5 +1,16 @@
 #!/bin/bash
 
+if [ -f "version.txt" ]
+then
+    DEB_Version=$(cat version.txt-${BUILD_NUMBER}~${DISTRIB_ID}~${DISTRIB_CODENAME})
+else
+    DEB_Version="5.1-${BUILD_NUMBER}~${DISTRIB_ID}~${DISTRIB_CODENAME}"
+fi
+
+#Check packages
+sudo apt-get update
+sudo apt-get install -y devscripts libwrap0-dev po-debconf chrpath doxygen patch gawk debhelper
+
 if [ -d Percona-Server-5.1/Percona-Server ]
  then
 cd Percona-Server-5.1/Percona-Server/
@@ -14,7 +25,7 @@ echo "Compiling began at $(date)"
 make
 echo "Compiling done at $(date), Making install, creating deb file"
 #sudo checkinstall make install
-sudo checkinstall --pkgname="inthinc-percona-server-5.1" --pkgversion="5.1" --maintainer="root@inthinc.com" --provides="5.1.66-inthinc.1-495.precise - mysql-server-core-5.1 mysql-server-core mysql-server-5.1 mysql-server" --requires="5.1.66-inthinc.1-495.precise - inthinc-percona-server-client-5.1 (2 5.1.66-inthinc.1-495.precise) libdbi-perl (0 (null)) perl (2 5.6) libc6 (2 2.14) libmysqlclient16 (2 5.1.21-1) libstdc++6 (2 4.6) libwrap0 (2 7.6-4~) zlib1g (2 1:1.2.0) debconf (18 0.5) debconf-2.0 (0 (null)) psmisc (0 (null)) passwd (0 (null)) lsb-base (2 3.0-10) inthinc-percona-server-common-5.1 (2 5.1.66-inthinc.1-495.precise) adduser (2 3.40) debconf (0 (null)) tinyca (0 (null)) mailx (0 (null)) libhtml-template-perl (0 (null)) mysql-server (3 5.1.66-inthinc.1-495.precise) mysql-server:i386 (3 5.1.66-inthinc.1-495.precise) mysql-server-4.1 (0 (null)) mysql-server-4.1:i386 (0 (null)) mysql-server-5.1 (0 (null)) mysql-server-5.1:i386 (0 (null)) mysql-server-5.5 (0 (null)) mysql-server-5.5:i386 (0 (null)) mysql-server-core-5.1 (0 (null)) mysql-server-core-5.1:i386 (0 (null)) mysql-server-core-5.5 (0 (null)) mysql-server-core-5.5:i386 (0 (null)) percona-xtradb-server-5.0 (0 (null)) percona-xtradb-server-5.0:i386 (0 (null)) mysql-server (3 5.1.66-inthinc.1-495.precise) mysql-server:i386 (3 5.1.66-inthinc.1-495.precise) mysql-server-5.0 (0 (null)) mysql-server-5.0:i386 (0 (null)) mysql-server-5.1 (0 (null)) mysql-server-5.1:i386 (0 (null)) mysql-server-core-5.1 (0 (null)) mysql-server-core-5.1:i386 (0 (null)) percona-xtradb-server-5.0 (0 (null)) percona-xtradb-server-5.0:i386 (0 (null))" --conflicts="mysql-server (<< 5.1.66-inthinc.1-495.precise), mysql-server-4.1, mysql-server-5.1, mysql-server-5.5, mysql-server-core-5.1, mysql-server-core-5.5, percona-xtradb-server-5.0" --replaces="mysql-server (<< 5.1.66-inthinc.1-495.precise), mysql-server-5.0, mysql-server-5.1, mysql-server-core-5.1, percona-xtradb-server-5.0" --provides="mysql-server, mysql-server-5.1, mysql-server-core, mysql-server-core-5.1" --pkgarch="amd64" --pkgrelease="database" -y make install
+sudo checkinstall --pkgname="inthinc-percona-server" --pkgversion="${DEB_Version}" --maintainer="root@inthinc.com" --provides="5.1.66-inthinc.1-495.precise - mysql-server-core-5.1 mysql-server-core mysql-server-5.1 mysql-server" --requires="5.1.66-inthinc.1-495.precise - inthinc-percona-server-client-5.1 (2 5.1.66-inthinc.1-495.precise) libdbi-perl (0 (null)) perl (2 5.6) libc6 (2 2.14) libmysqlclient16 (2 5.1.21-1) libstdc++6 (2 4.6) libwrap0 (2 7.6-4~) zlib1g (2 1:1.2.0) debconf (18 0.5) debconf-2.0 (0 (null)) psmisc (0 (null)) passwd (0 (null)) lsb-base (2 3.0-10) inthinc-percona-server-common-5.1 (2 5.1.66-inthinc.1-495.precise) adduser (2 3.40) debconf (0 (null)) tinyca (0 (null)) mailx (0 (null)) libhtml-template-perl (0 (null)) mysql-server (3 5.1.66-inthinc.1-495.precise) mysql-server:i386 (3 5.1.66-inthinc.1-495.precise) mysql-server-4.1 (0 (null)) mysql-server-4.1:i386 (0 (null)) mysql-server-5.1 (0 (null)) mysql-server-5.1:i386 (0 (null)) mysql-server-5.5 (0 (null)) mysql-server-5.5:i386 (0 (null)) mysql-server-core-5.1 (0 (null)) mysql-server-core-5.1:i386 (0 (null)) mysql-server-core-5.5 (0 (null)) mysql-server-core-5.5:i386 (0 (null)) percona-xtradb-server-5.0 (0 (null)) percona-xtradb-server-5.0:i386 (0 (null)) mysql-server (3 5.1.66-inthinc.1-495.precise) mysql-server:i386 (3 5.1.66-inthinc.1-495.precise) mysql-server-5.0 (0 (null)) mysql-server-5.0:i386 (0 (null)) mysql-server-5.1 (0 (null)) mysql-server-5.1:i386 (0 (null)) mysql-server-core-5.1 (0 (null)) mysql-server-core-5.1:i386 (0 (null)) percona-xtradb-server-5.0 (0 (null)) percona-xtradb-server-5.0:i386 (0 (null))" --conflicts="mysql-server (<< 5.1.66-inthinc.1-495.precise), mysql-server-4.1, mysql-server-5.1, mysql-server-5.5, mysql-server-core-5.1, mysql-server-core-5.5, percona-xtradb-server-5.0" --replaces="mysql-server (<< 5.1.66-inthinc.1-495.precise), mysql-server-5.0, mysql-server-5.1, mysql-server-core-5.1, percona-xtradb-server-5.0" --provides="mysql-server, mysql-server-5.1, mysql-server-core, mysql-server-core-5.1" --pkgarch="amd64" --pkgrelease="database" -y make install
 
 echo "Done creating deb file at $(date)"
 ls -l *deb
