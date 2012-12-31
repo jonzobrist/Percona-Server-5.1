@@ -9,7 +9,7 @@ fi
 
 #Check packages
 sudo apt-get update
-sudo apt-get install -y devscripts libwrap0-dev po-debconf chrpath doxygen patch gawk debhelper dpatch curl dch
+sudo apt-get install -y devscripts libwrap0-dev po-debconf chrpath doxygen patch gawk debhelper dpatch curl
 
 if [ -d Percona-Server-5.1/Percona-Server ]
  then
