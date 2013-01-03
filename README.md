@@ -1,13 +1,14 @@
 Percona-Server-5.1
 ==================
 
+# DISCONTINUED PROJECT
 Percona-Server-5.1 cloned from Percona Bazaar
 This project was created to help me learn Jenkins, and I did not like Bazaar (so, so slow) so I put it into Github.
 I have a job pull from Bazaar, make sure my stuff is there and put it here into Github.
 I was planning on packaging my own debs so I could inject custom things into the package, but now I've changed my mind and am just going to use Percona's official Ubuntu packages, and inject via a separate package that re-owns the config files with dpkg divert.
 http://www.percona.com/doc/percona-server/5.5/installation/apt_repo.html
 
-I install with this run in the shell
+#I install with this run in the shell
 
 
 gpg --keyserver  hkp://keys.gnupg.net --recv-keys 1C4CBDCDCD2EFD2A
@@ -20,7 +21,7 @@ if [ ! -f /etc/apt/sources.list.d/percona.list ]
 else
     echo "Percona sources exist, $(cat /etc/apt/sources.list.d/percona.list)"
 fi
-#sometimes it doesn't configure right, so you have to just rerun that line
+#Sometimes it doesn't configure right, so you have to just rerun that line
 apt-get update
 
 #Percona SERVER
